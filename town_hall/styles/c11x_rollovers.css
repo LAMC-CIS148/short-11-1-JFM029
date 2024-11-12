@@ -14,6 +14,15 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
+.image-rollover{
+	width: 260px;
+	height: 260px;
+	background-image: url('../images/sampson_dinosaur.jpg');
+	background-repeat: no-repeat;
+}
+.image-rollover:hover{
+	background-image: url('../images/sorkin_desk260.jpg');
+}
 a:focus, a:hover {
 	font-style: italic;
 }
